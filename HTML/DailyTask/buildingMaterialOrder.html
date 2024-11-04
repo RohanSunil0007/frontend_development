@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Material Order Form</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <div>
+            <label for="fullname"><b>Name *</b></label><br>
+            <input type="text" name="fullname" id="fullname" required><br>
+            <label for="address"><b>Where are you? *</b></label><br>
+            <input type="text" id="street-address" name="street-address"><br>
+            <label for="street-address">Street Address</label><br>
+            <input type="text" id="addressLine2" name="addressLine2"><br>
+            <label for="addressLine2">Address Line 2</label><br>
+            <input type="text" id="city" name="city"><br>
+            <label for="city">City</label><br>
+            <input type="text" id="state" name="state"><br>
+            <label for="state">State/Region/Province</label><br>
+            <input type="text" id="zipCode" name="zipCode"><br>
+            <label for="zipCode">Zip Code</label><br>
+            <select name="country" id="selectCountry" required>
+                <option value="" disabled selected>-Select-</option>
+                <option value="spain">Spain</option>
+                <option value="england">England</option>
+                <option value="usa">USA</option>
+                <option value="brazil">Brazil</option>
+            </select><br>
+            <label for="selectCountry">Country</label><br>
+            <label for="status">What's the progress status ?  *</label><br>
+            <input type="range" min="0" max="10" name="status" id="status" ><br>
+
+            <label>Do you need anymore materials ?*</label><br>
+            <input type="radio" id="yes" name="materialsNeeded" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="materialsNeeded" value="no">
+            <label for="no">No</label><br>
+
+            <label>What more do you need ?*</label><br>
+            <input type="checkbox" id="sand" name="requirement" value="sand">
+            <label for="sand">Sand</label><br>
+
+            <input type="checkbox" id="bricks" name="requirement" value="bricks">
+            <label for="bricks">Bricks</label><br>
+
+            <input type="checkbox" id="rod" name="requirement" value="rod">
+            <label for="rod">Rods</label><br>
+
+            <input type="checkbox" id="other" name="requirement" value="other">
+            <label for="other">Other</label><br>
+
+            <label for="comments">Any other comments ?</label><br>
+            <textarea name="comments" id="comments" rows="5" cols="50"></textarea><br>
+
+            <!-- <embed src="Patterns.pdf" type="application/pdf" width="300px" height="300px"><br> -->
+                <audio src="audioooo12212.mp3" controls></audio><br>
+            
+            <input type="submit">
+        </div>
+    </form>
+      
+</body>
+</html>

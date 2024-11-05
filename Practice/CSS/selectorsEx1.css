@@ -1,0 +1,7 @@
+
+h1{
+    color: aquamarine;
+}
+p + p{
+    color: rgb(255, 0, 183);
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: #d4e5ee;
+}
+div{
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 7px;
+    /* border-width: 1px;
+    border-color: red;
+    border-style: solid; */   
+}
+input {
+    width: 250px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+#login-button{
+    background-color: #0866ff;
+    border: none;
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 5px;
+}

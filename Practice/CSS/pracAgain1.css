@@ -1,0 +1,17 @@
+#div1{
+    background-color: brown;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#out-btn1{
+    position: absolute;
+    top: 0px;
+}
+#btn1{
+    position: absolute;
+    top: 0px;
+}
+#btn2{
+    
+}

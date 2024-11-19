@@ -1,0 +1,45 @@
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-areas: "header header header header header header"
+    "article aside aside aside aside footer"
+    "main main main mainC mainC mainC"
+    "section section secA secA secB secB"
+    "secC secC secC secC secC secC"
+    ;
+}
+.box{
+    border: 1px solid purple;
+}
+.box1{
+    grid-area: header;
+}
+.box2{
+    grid-area:article;
+}
+.box3{
+    grid-area: aside ;
+}
+.box4{
+    grid-area: footer  ;
+}
+.box5{
+    grid-area: main ;
+}
+.box6{
+    grid-area: mainC;
+}
+.box7{
+    grid-area: section;
+}
+.box8{
+    grid-area: secA;
+}
+.box9{
+    grid-area: secB ;
+}
+.box10{
+    grid-area:secC ;
+}

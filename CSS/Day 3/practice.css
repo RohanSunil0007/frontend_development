@@ -1,0 +1,21 @@
+form{
+    display: none;
+}
+input[type="checkbox"]:checked + form {
+    display: inline;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline;
+    /* background-color: blueviolet; */
+    padding: 10px;
+}
+li:hover ~ li a{
+    /* background-color: brown; */
+    color: green;
+}

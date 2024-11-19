@@ -1,0 +1,10 @@
+.container{
+    width: 600px;
+    height: 300px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3 , 200px);
+}
+.box{
+    border: 1px solid purple;
+}

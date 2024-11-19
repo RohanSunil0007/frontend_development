@@ -1,0 +1,13 @@
+#div1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+#div2{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}
+div{
+    display: inline;
+}

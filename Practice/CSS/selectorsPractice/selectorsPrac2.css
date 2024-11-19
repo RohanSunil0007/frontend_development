@@ -1,0 +1,6 @@
+.div1 ~ p{
+    background-color: red;
+}
+/* .div2 + p{
+    background-color: cyan;
+} */

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Nav Bar</title>
+    <link rel="stylesheet" href="amazonNavBar.css" type="text/CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    *{
+     margin: 0;
+    font-family: Arial;
+   /* border: border-box; */
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo1.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    
+}
+ .border{
+    border: 1px solid transparent;
+} 
+.border:hover{
+    border: 1px solid white;
+
+}
+
+.addr-deliver-to{
+    color: rgb(166, 164, 164);
+    font-size: 14px;
+    margin-left: 15px;
+}
+.addr-country{
+    color: white;
+    font-size: 16px;
+    margin-left: 3px;
+}
+.addr-icon{
+    display: flex;
+    /* align-items: center; */
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(172, 89, 89);
+    width: 795px;
+    height: 38px;
+    border-radius: 3px;
+}
+
+.search-select{
+    background-color: #E6E6E6 ;
+    width: 50px;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254,189,105);
+    color: rgb(84,72,57);
+}
+.select-lang{
+    background-color: #0f1111;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+    color: white;
+}
+
+span{
+    font-size: 13px;
+}
+.nav-second , .nav-return{
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-cart i{
+    font-size: 19px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <!-- Address -->
+            <div class="nav-addr border">
+                <p class="addr-deliver-to">Deliver to</p>
+                <div class="addr-icon">
+                    <i class="fa-sharp-duotone fa-solid fa-location-dot"></i>
+                    <p class="addr-country">India</p>
+                </div>
+            </div>
+
+            <!-- Search bar -->
+             <div class="nav-search">
+                <select class="search-select" >
+                    <option value="">All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+             </div>
+            <!-- Select Language -->
+             <div>
+                <select class="select-lang" >
+                    <option value="">EN</option>
+                </select>
+             </div>
+
+             <!-- Sign In -->
+              <div class="nav-signin">
+                  <p><span>Hello, sign in</span></p>
+                  <p class="nav-second">Account & Lists</p>
+              </div>
+
+              <!-- Return and Orders -->
+              <div class="nav-return">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <!-- Cart -->
+             <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+             </div>
+    
+        </nav>
+    </header>
+</body>
+</html>

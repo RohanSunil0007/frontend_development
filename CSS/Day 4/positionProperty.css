@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+#div1{
+    
+    background-color: cadetblue;
+    width: 80%;
+    height: 300px;
+    position: relative;
+     
+    
+}
+#div2{
+    background-color: goldenrod;
+    width: 80%;
+    height: 300px;
+    
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 40px;
+}
+p{
+    position: absolute;
+    left: 50%;
+    top: 80px;
+}
+h2{
+   
+}

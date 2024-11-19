@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Navbar Clone</title>
+    <!-- <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main Navbar Styles */
+        .navbar {
+            background-color: #131A22;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Amazon logo */
+        .navbar-logo img {
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        /* Location section */
+        .navbar-location {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        
+        .navbar-location i {
+            margin-right: 5px;
+        }
+
+        /* Search bar */
+        .navbar-search {
+            flex-grow: 1;
+            display: flex;
+            position: relative;
+        }
+        
+        .navbar-search select,
+        .navbar-search input {
+            padding: 8px;
+            border: none;
+        }
+        
+        .navbar-search select {
+            background-color: #F3F3F3;
+            border-right: 1px solid #DADADA;
+        }
+
+        .navbar-search input[type="text"] {
+            flex-grow: 1;
+            background-color: #F3F3F3;
+        }
+        
+        .navbar-search button {
+            background-color: #febd69;
+            border: none;
+            padding: 8px 20px;
+            cursor: pointer;
+        }
+
+        /* Account, Orders, Cart */
+        .navbar-links {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .navbar-link {
+            margin-left: 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+
+        .navbar-cart {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+        }
+
+        .navbar-cart span {
+            font-size: 0.9em;
+            margin-left: 5px;
+        }
+
+        /* Hover effect */
+        .navbar-link:hover, .navbar-cart:hover {
+            color: #febd69;
+        }
+    </style> -->
+</head>
+<body>
+
+    <div class="navbar">
+        <!-- Logo -->
+        <div class="navbar-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo">
+        </div>
+
+        <!-- Location -->
+        <div class="navbar-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+                <small>Deliver to</small>
+                <div><strong>Your Location</strong></div>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="navbar-search">
+            <select>
+                <option>All</option>
+                <option>Books</option>
+                <option>Electronics</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="text" placeholder="Search Amazon">
+            <button>🔍</button>
+        </div>
+
+        <!-- Links -->
+        <div class="navbar-links">
+            <a href="#" class="navbar-link">Hello, Sign In</a>
+            <a href="#" class="navbar-link">Returns & Orders</a>
+            <div class="navbar-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Cart</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

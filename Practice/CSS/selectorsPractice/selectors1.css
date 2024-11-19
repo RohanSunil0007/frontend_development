@@ -1,0 +1,6 @@
+section p{
+    background-color: aqua;
+}
+section p:hover{
+    background-color: transparent;
+}
